@@ -4,16 +4,13 @@ function Scooter(year, color, model) {
     this.model = model
 }
 
-class Driver {
-  constructor(name, age, experience) {
+function Driver(name, age, experience) {
     this.name = name;
     this.age = age;
     this.experience = experience
-  }
 }
 
-class PickupLocation {
-  constructor(address, city) {
+function PickupLocation(address, city) {
     this.address = address;
     this.city = city;
   }
